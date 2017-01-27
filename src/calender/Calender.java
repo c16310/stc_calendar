@@ -13,7 +13,7 @@ import static java.util.GregorianCalendar.*;
  */
 public class Calender {
     //各月の日数
-    static int [] mday ={31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    static int [] mday ={31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; //
     
     //year年month月day日の曜日を求める
     static int dayOfWeek(int year, int month, int day){
